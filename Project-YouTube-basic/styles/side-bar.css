@@ -1,0 +1,78 @@
+.side-bar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    bottom: 0;
+    top: 61px;
+    background-color: #0f0f0f;
+    width: 69px;
+}
+
+.home-button {
+    margin-top: 7px;
+    height: 80px;
+    border:none;
+    background-color: #0f0f0f;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.home-icon {
+    height: 31px;
+}
+
+.home-button:hover {
+    background-color: #4646465d;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.explore-button {
+    background-color: #0f0f0f;
+    height: 80px;
+    border: none;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.explore-icon {
+    height: 31px;
+}
+
+.explore-button:hover {
+    background-color: #4646465d;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.library-button {
+    background-color: #0f0f0f;
+    height: 80px;
+    border:none;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.library-icon {
+    height: 31px;
+}
+
+.library-button:hover {
+    background-color: #4646465d;
+    border-radius: 11px;
+    cursor: pointer;
+    color: white;
+    font-family: roboto, arial;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+
+
