@@ -5,6 +5,12 @@
   row-gap: 2px;
 }
 
+@media (max-width: 969px) {
+  .main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .hover-grid {
   width: 100%; 
   padding: 20px;
